@@ -1,0 +1,180 @@
+@charset "utf-8"; 
+
+/*****************************************************
+------------------------------------------------------
+	[ main css ]
+------------------------------------------------------
+*****************************************************/
+
+* {
+	margin:0px;
+	padding:0px;
+	font-family: "ＭＳ Ｐゴシック", "Osaka";
+	line-height:1.4em ;
+}
+
+html ,body {
+	width:100%;
+	background:#F0EDE7 url(../img/main_bg.gif) repeat-y center center;
+	text-align:center;
+}
+img {
+	vertical-align:bottom;
+	border :0px; margin:0px;padding:0px;
+}
+
+/*****************************************************
+------------------------------------------------------
+	[ Layout ]
+------------------------------------------------------
+*****************************************************/
+
+#wrapall{
+	width:780px;
+	margin:0 auto;
+	font-size:0.8em;
+	background:#ffffff;
+	text-align:left;
+}
+
+#langseld {float:right;top:0px;left:780px;width:150px;font-size:12px;background-color:#fff;x-index:100;text-align:center}
+/*----------- header -----------------------------*/
+
+#header {
+}
+
+
+/*----------- main -------------------------------*/
+
+#main {
+	width:780px;
+	margin:0 auto;
+	padding-top:20px;
+}
+	
+/*----------- footer -----------------------------*/
+
+#footer {
+	clear:both;
+	padding-bottom:20px;
+}
+
+
+/*****************************************************
+------------------------------------------------------
+	[ Parts ]
+------------------------------------------------------
+*****************************************************/
+
+a { color:#066; }
+a:hover { color:#0099ff; }
+
+input,textarea { border:1px solid #666666; }
+
+sub {font-size:0.8em;vertical-align:baseline;}
+/*****************************************************
+	header 
+*****************************************************/
+
+/*----------- logo ---------------------------------*/
+
+#logo {
+}
+
+/*----------- main menu -----------------------*/
+
+ul.mainmenu {
+	width:780px;
+	margin:0 auto;
+	overflow:hidden;
+}
+ul.mainmenu li {
+	list-style:none;
+	float:left;
+}
+ul.mainmenu li a {
+	
+	height:38px;
+	display:block;
+	text-indent:-38000px;
+}
+
+ul.mainmenu li.mmenu_01 a { width:156px; background:url(../img/mainmenu.jpg) -0px -0px no-repeat;}
+ul.mainmenu li.mmenu_01 a:hover { background:url(../img/mainmenu.jpg) -0px -39px no-repeat;}
+body.mmenu_01 ul.mainmenu  li.mmenu_01 a,
+body.mmenu_01 ul.mainmenu  li.mmenu_01 a:hover { 
+	background:url(../img/mainmenu.jpg) -0px -38px no-repeat;
+}
+
+ul.mainmenu li.mmenu_02 a { width:156px;background:url(../img/mainmenu.jpg) -156px -0px no-repeat;}
+ul.mainmenu li.mmenu_02 a:hover { background:url(../img/mainmenu.jpg) -156px -39px no-repeat;}
+body.mmenu_02 ul.mainmenu  li.mmenu_02 a,
+body.mmenu_02 ul.mainmenu  li.mmenu_02 a:hover { 
+	background:url(../img/mainmenu.jpg) -156px -38px no-repeat;
+}
+
+ul.mainmenu li.mmenu_03 a { width:156px; background:url(../img/mainmenu.jpg) -312px -0px no-repeat;}
+ul.mainmenu li.mmenu_03 a:hover { background:url(../img/mainmenu.jpg) -312px -39px no-repeat;}
+body.mmenu_03 ul.mainmenu  li.mmenu_03 a,
+body.mmenu_03 ul.mainmenu  li.mmenu_03 a:hover { 
+	background:url(../img/mainmenu.jpg) -312px -38px no-repeat;
+}
+
+ul.mainmenu li.mmenu_04 a { width:156px; background:url(../img/mainmenu.jpg) -468px -0px no-repeat;}
+ul.mainmenu li.mmenu_04 a:hover { background:url(../img/mainmenu.jpg) -468px -39px no-repeat;}
+body.mmenu_04 ul.mainmenu  li.mmenu_04 a,
+body.mmenu_04 ul.mainmenu  li.mmenu_04 a:hover { 
+	background:url(../img/mainmenu.jpg) -468px -38px no-repeat;
+}
+
+ul.mainmenu li.mmenu_05 a { width:156px; background:url(../img/mainmenu.jpg) -624px -0px no-repeat;}
+ul.mainmenu li.mmenu_05 a:hover { background:url(../img/mainmenu.jpg) -624px -39px no-repeat;}
+body.mmenu_05 ul.mainmenu  li.mmenu_05 a,
+body.mmenu_05 ul.mainmenu  li.mmenu_05 a:hover { 
+	background:url(../img/mainmenu.jpg) -624px -39px no-repeat;
+}
+
+
+/*****************************************************
+縲・main 縲・
+*****************************************************/
+
+.pagetop {
+	width:650px;
+	margin:0 auto;
+	padding-bottom:20px;
+	text-align:right;
+	clear:both;
+}
+
+
+#getacrobat { margin: 15px 25px 5px; padding: 5px; border: dashed 1px #ddd }
+
+
+
+/*****************************************************
+	footer
+*****************************************************/
+
+/*----------- address -----------------------*/
+
+#footer address {
+	width:780px;
+	text-align:center;
+	font-weight:normal;
+	font-style:normal;
+}
+
+/*----------- copyright -----------------------*/
+
+#footer p.copy {
+	padding-top:18px;
+	color: #666565;
+	text-align:center;
+	clear:both;
+}
+
+#shortlinks {}
+#shortlinks ul {
+	list-style-position: inside; list-style-image: url(../img/hp-1.jpg); margin:10px 10px 10px 10px;}
+#shortlinks ul li {}

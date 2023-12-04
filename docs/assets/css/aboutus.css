@@ -1,0 +1,300 @@
+@charset "UTF-8";
+/**
+ * Theme Name: YS TOKYO
+ * Text Domain: git
+ * Version: 1.0.0
+ */
+@media (max-width: 767px) {
+  .l-main {
+    padding-top: 50px;
+  }
+}
+
+.l-content {
+  padding-bottom: 60px; 
+}
+
+@media (min-width: 768px) {
+  .l-content {
+     padding-bottom: 100px; 
+  }
+}
+
+.c-container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (min-width: 768px) {
+  .c-container {
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 0;
+      padding-right: 0;
+      max-width: 1020px;
+      width: calc(100% - 60px);
+  }
+}
+
+@media (min-width: 768px) {
+  .c-container--small {
+    width: 700px; 
+  }
+}
+
+@media (min-width: 768px) {
+  .c-container--middle {
+    max-width: 980px;
+    min-width: 920px;
+  }
+}
+
+.c-section-pb {
+  padding-bottom: 80px;
+}
+
+.c-section-pt {
+  padding-top: 80px;
+}
+
+.c-section-pbt {
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+.c-heading {
+  font-family: TradeGothic, Arial, "Yu Gothic", YuGothic, "\30D2\30E9\30AE\30CE\89D2\30B4   ProN W3", Hiragino Kaku Gothic ProN, "\30E1\30A4\30EA\30AA", Meiryo, sans-serif;
+  font-size: 2.4rem;
+  line-height: 1.4;
+  margin-top: 0;
+  padding-top: 24px;
+  position: relative;
+  text-align: center;
+}
+
+.c-heading::before {
+  background: #3c78de;
+  content: '';
+  display: block;
+  height: 1px;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+  width: 75px;
+}
+
+.c-heading--narrow {
+  padding-top: 10px;
+}
+
+.c-heading--fine {
+  font-weight: normal;
+}
+
+.c-heading_webinar {
+  font-family: TradeGothic, Arial, "Yu Gothic", YuGothic, "\30D2\30E9\30AE\30CE\89D2\30B4   ProN W3", Hiragino Kaku Gothic ProN, "\30E1\30A4\30EA\30AA", Meiryo, sans-serif;
+  font-size: 2.4rem;
+  line-height: 1.4;
+  margin-top: 0;
+  padding-top: 24px;
+  position: relative;
+  text-align: center;
+}
+
+.c-heading_webinar::before {
+  content: '';
+  display: block;
+  height: 1px;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+  width: 75px;
+}
+
+@media (min-width: 768px) {
+  .c-heading {
+    font-size: 2.8rem;
+    line-height: 1.75;
+    padding-top: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .c-heading::before {
+	width: 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .c-heading > br {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .c-heading--narrow {
+     padding-top: 21px;
+  }
+}
+
+@media (min-width: 768px) {
+  .c-heading_webinar {
+    font-size: 2.8rem;
+    line-height: 1.75;
+    padding-top: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .c-heading_webinar::before {
+    width: 80px;
+  }
+}
+
+@media (min-width: 768px) {
+  .p-events-header .c-heading {
+    text-align: left;
+  }
+  .p-events-header .c-heading::before {
+    left: 0;
+    transform: none;
+  }
+}
+
+.c-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.c-table caption {
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+@media (max-width: 767px) {
+  .c-table {
+    table-layout: fixed;
+  }
+}
+
+@media (max-width: 767px) {
+  .c-table caption {
+    display: none;
+  }
+}
+
+.c-table th, .c-table td {
+  border: solid 1px #d8d8d8;
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  .c-table th, .c-table td {
+    padding: 15px;
+  }
+}
+
+.c-table th {
+  background: #f0f0f0;
+  font-weight: normal;
+}
+
+.c-table--horizontal th {
+  text-align: left;
+}
+
+.c-table--horizontal th, .c-table--horizontal td {
+  vertical-align: top;
+}
+
+@media (max-width: 767px) {
+  .c-table--horizontal {
+    border-top: solid 1px #d8d8d8;
+  }
+  .c-table--horizontal th, .c-table--horizontal td {
+    border-top: none;
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .c-table--form th, .c-table--form td {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .c-table--form th, .c-table--form td {
+      padding: 25px;
+  }
+}
+
+.c-table--form th {
+  text-align: left;
+}
+
+@media (max-width: 767px) {
+  .c-table--form th {
+	border-width: 1px 0;
+	padding: 15px 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .c-table--form th {
+	vertical-align: top;
+	width: 200px; }
+}
+
+.c-table--form th > label {
+  display: block;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .c-table--form th > label {
+	padding: 14px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .c-table--form th br {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .c-table--form td {
+    border: none;
+    padding: 20px;
+  }
+}
+
+.mw_wp_form_confirm .p-form .c-table--form th label {
+  padding: 0;
+}
+
+.mw_wp_form_confirm .p-form .c-table--form th br {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .page-company__table th {
+    width: 196px; }
+}
+
+.u-m-0 {
+  margin: 0;
+}
+
+.c-list {
+  padding-left: 1.5em;
+}
+
+.c-list--plane {
+  list-style: none;
+  padding-left: 0;
+}
